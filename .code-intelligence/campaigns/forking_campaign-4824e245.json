@@ -1,0 +1,27 @@
+{
+  "name": "forking_campaign-4824e245",
+  "displayName": "forking_campaign",
+  "maxRunTime": "1200s",
+  "fuzzTargets": [
+    "fuzz_forking.cpp-2b6bc09c"
+  ],
+  "fuzzerRunConfigurations": [
+    {
+      "engine": "LIBFUZZER",
+      "sanitizer": "ADDRESS",
+      "numberOfJobs": 1
+    }
+  ],
+  "configuredTargets": [
+    {
+      "fuzzTarget": "fuzz_forking.cpp-2b6bc09c",
+      "fuzzerRunConfigurations": [
+        {
+          "engine": "LIBFUZZER",
+          "sanitizer": "ADDRESS",
+          "numberOfJobs": 1
+        }
+      ]
+    }
+  ]
+}

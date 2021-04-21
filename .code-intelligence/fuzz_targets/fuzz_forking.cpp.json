@@ -1,0 +1,6 @@
+{
+  "name": "fuzz_forking.cpp-2b6bc09c",
+  "displayName": "fuzz_forking.cpp",
+  "path": "fuzz_forking.cpp",
+  "buildFlags": ["libfunc.a", "-I."]
+}

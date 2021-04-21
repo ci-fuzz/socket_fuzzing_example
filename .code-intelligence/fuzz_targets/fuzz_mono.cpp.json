@@ -1,0 +1,6 @@
+{
+  "name": "fuzz_mono.cpp-3e37743a",
+  "displayName": "fuzz_mono.cpp",
+  "path": "fuzz_mono.cpp",
+  "buildFlags": ["libfunc.a", "-I."]
+}

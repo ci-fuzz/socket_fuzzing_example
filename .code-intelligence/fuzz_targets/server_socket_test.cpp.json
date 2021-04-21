@@ -1,0 +1,8 @@
+{
+  "name": "server_socket_test-3a585103",
+  "displayName": "server_socket_test",
+  "cSocket": {
+    "portNumber": 5001,
+    "targetLibrary": "./libFuzzCIserver.so"
+  }
+}

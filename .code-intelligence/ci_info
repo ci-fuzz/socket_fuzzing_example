@@ -1,0 +1,17 @@
+{
+  "name": "projects/project-3cdaf0c1-1a95-11ea-a1f3-8c1645a161cb",
+  "displayName": "socket_server",
+  "buildScriptContent": "#!/bin/bash -eu\n# Here you can provide a script to build your project. Here you should provide \n# the steps as you would normally build your code. The CI security suite will \n# then automatically perform all needed adjustments necessary to build the fuzzers\n# based on the provided configurations.\n\nmake -j$(nproc)",
+  "configureScriptContent": "#!/bin/bash -eu\nmake -j$(nproc)",
+  "details": {
+
+  },
+  "projectEnvironment": {
+    "dockerBuild": {
+      "name": "cifuzz/builders:zint"
+    },
+    "dockerRun": {
+      "name": "cifuzz/builders:zint"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "name": "server_socket_test-eef911d8",
+  "displayName": "server_socket_test",
+  "maxRunTime": "1800s",
+  "fuzzTargets": [
+    "server_socket_test-3a585103"
+  ],
+  "fuzzerRunConfigurations": [
+    {
+      "engine": "LIBFUZZER",
+      "sanitizer": "ADDRESS",
+      "numberOfJobs": 1,
+      "engineArguments": [
+        "-entropic=1"
+      ]
+    },
+    {
+      "engine": "LIBFUZZER",
+      "sanitizer": "ADDRESS",
+      "numberOfJobs": 1,
+      "engineArguments": [
+        "-entropic=1",
+        "-use_value_profile=1"
+      ]
+    }
+  ],
+  "configuredTargets": [
+    {
+      "fuzzTarget": "server_socket_test-3a585103",
+      "fuzzerRunConfigurations": [
+        {
+          "engine": "LIBFUZZER",
+          "sanitizer": "ADDRESS",
+          "numberOfJobs": 1,
+          "engineArguments": [
+            "-entropic=1"
+          ]
+        },
+        {
+          "engine": "LIBFUZZER",
+          "sanitizer": "ADDRESS",
+          "numberOfJobs": 1,
+          "engineArguments": [
+            "-entropic=1",
+            "-use_value_profile=1"
+          ]
+        }
+      ]
+    }
+  ]
+}

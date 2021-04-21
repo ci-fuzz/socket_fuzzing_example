@@ -1,0 +1,27 @@
+{
+  "name": "mono_campaign-29d09232",
+  "displayName": "mono_campaign",
+  "maxRunTime": "1200s",
+  "fuzzTargets": [
+    "fuzz_mono.cpp-3e37743a"
+  ],
+  "fuzzerRunConfigurations": [
+    {
+      "engine": "LIBFUZZER",
+      "sanitizer": "ADDRESS",
+      "numberOfJobs": 1
+    }
+  ],
+  "configuredTargets": [
+    {
+      "fuzzTarget": "fuzz_mono.cpp-3e37743a",
+      "fuzzerRunConfigurations": [
+        {
+          "engine": "LIBFUZZER",
+          "sanitizer": "ADDRESS",
+          "numberOfJobs": 1
+        }
+      ]
+    }
+  ]
+}
